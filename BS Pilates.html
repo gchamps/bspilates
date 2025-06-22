@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estúdio BS Pilates & Funcional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #000;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      color: #2ea5ea;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 2rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('bspilates.png');
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      color: #fff;
+      text-shadow: 2px 2px 5px #000;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background-color: #1c1c1c;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(2, 202, 247, 0.2);
+    }
+    .card h3 {
+      color: #2ea5ea;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BS Pilates & Funcional</h1>
+    <nav>
+      <a href="#quemsomos">Quem somos</a>
+      <a href="#serviços">Serviços</a>
+      <a href="#planos">Planos</a>
+      <a href="#unidade">Unidade</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+  <div class="hero-content">
+    <h2>Permitindo MOVIMENTO, transformando VIDAS!</h2>
+    <p>Saúde, força e bem-estar em um só lugar.</p>
+    <a href="#contato" class="btn">Agende sua aula</a>
+  </div>
+    </section>
+  <section id="quemsomos">
+    <h2>Quem somos</h2>
+    <p>No Estúdio BS Pilates & Funcional, acreditamos que o movimento consciente transforma vidas. <br>Somos um espaço acolhedor e especializado, dedicado à promoção da saúde, do bem-estar e da qualidade de vida por meio do Pilates e do treinamento funcional.
+
+Aqui, cada aluno é único.<br> Nossas aulas são personalizadas, respeitando os objetivos, limites e necessidades individuais, sempre com acompanhamento de profissionais qualificados e comprometidos com o seu progresso.
+
+Seja para fortalecer o corpo, melhorar a postura, aliviar dores ou encontrar um momento de equilíbrio entre corpo e mente, estamos prontos para te ajudar nessa jornada.<br>
+
+Mais do que um estúdio, o BS Pilates & Funcional é uma extensão do seu cuidado com você mesmo.<br> Venha nos conhecer e sinta a diferença de um atendimento feito com atenção, profissionalismo e carinho.</p>
+  </section>
+
+  <section id="serviços" class="section">
+    <div class="container">
+    <h2>Nossos serviços</h2>
+      <ul>
+        <li>Pilates Solo e Aparelhos</li>
+        <li>Treinamento Funcional</li>
+        <li>Spinning</li>
+        <li>Reabilitação Postural</li>
+        <li>Aulas Individuais ou em Dupla</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="planos">
+    <h2>Planos</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Fidelidade 3 meses</h3>
+        <p>R$ 350,00</p>
+        3 aulas por semana
+      </div>
+      <div class="card">
+        <h3>Fidelidade 3 meses</h3>
+        <p>R$ 245,00</p>
+        2 aulas por semana 
+      </div>
+      <div class="card">
+        <h3>Fidelidade 3 meses</h3>
+        <p>R$ 145,00</p>
+        1 aula por semana 
+      </div>
+      <div class="card">
+        <h3>Mensal</h3>
+        <p>R$370,00</p>
+        3 aulas na semana - 12 aulas no mês
+      </div>
+      <div class="card">
+        <h3>Mensal</h3>
+        <p>R$260,00</p>
+        2 aulas na semana - 8 aulas no mês 
+      </div>
+      <div class="card">
+        <h3>Mensal</h3>
+        <p>R$160,00</p>
+        1 aula na semana - 4 aulas no mês 
+      </div>
+    </div>
+    <br><p>Aulas personalizadas de acordo com a necessidade e objetivo de cada aluno, com duração de 50 minutos.</p>
+  </section>
+
+  <section id="unidade" class="section">
+    <div class="container">
+    <h2>Venha conhecer nosso estúdio</h2>
+      <h3>Horário de funcionamento</h3>
+      <p>De Segunda a Sexta das 7 às 22 horas</p>
+      <p>E Sábado das 9 às 16 horas</p><br>
+      <h2>Unidade</h2>
+      <a href="https://g.co/kgs/eZug2GP" class="btn">Google maps</a>
+      <p>Endereço: Av. São Paulo, 556 - Sala 2 - Cidade São Jorge, Santo André/SP</p>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Agende sua aula experimental pelo WhatsApp!</p>
+      <a href="https://wa.me/5511911960633" class="btn">Fale Conosco</a>
+    <p>Email: contato@bspilates.com.br</p>
+    <p>Telefone: (11) 91196-0633</p>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 BS Pilates & Funcional. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
